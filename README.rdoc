@@ -12,6 +12,7 @@
 Fast
   Bnb::Rates.new.fetch['ZAR'].rate
 
+Slow
   rates = Bnb::Rates.new.fetch
   rates['ZAR'].rate
 
