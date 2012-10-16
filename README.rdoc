@@ -1,19 +1,21 @@
-= bnb-fixings
+= Exchange rates from Bulgarian National Bank =
 
-Description goes here.
+    # Installing as Ruby gem
+    $ gem install bnb_exchange_rate
 
-== Contributing to bnb-fixings
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
-* Fork the project.
-* Start a feature/bugfix branch.
-* Commit and push until you are happy with your contribution.
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+    # Cloning the repository
+    $ git clone git://github.com/gudata/bnb_echange_rate.git
 
-== Copyright
 
-Copyright (c) 2012 Gudata. See LICENSE.txt for
-further details.
+== Usage ==
+
+Fast
+  Bnb::Rates.new.fetch['ZAR'].rate
+
+  rates = Bnb::Rates.new.fetch
+  rates['ZAR'].rate
+
+== Copyright ==
+
+Copyright (c) 2012 Gudata. See LICENSE.txt for further details.
 
