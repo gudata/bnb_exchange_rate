@@ -1,4 +1,4 @@
-= Exchange rates from Bulgarian National Bank =
+= Exchange rates from Bulgarian National Bank
 
     # Installing as Ruby gem
     $ gem install bnb_exchange_rate
@@ -7,7 +7,7 @@
     $ git clone git://github.com/gudata/bnb_echange_rate.git
 
 
-== Usage ==
+== Usage
 
 Fast
   Bnb::Rates.new.fetch['ZAR'].rate
@@ -15,7 +15,7 @@ Fast
   rates = Bnb::Rates.new.fetch
   rates['ZAR'].rate
 
-== Copyright ==
+== Copyright
 
 Copyright (c) 2012 Gudata. See LICENSE.txt for further details.
 
