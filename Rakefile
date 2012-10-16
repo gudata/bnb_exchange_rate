@@ -25,6 +25,7 @@ Jeweler::Tasks.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency 'httparty'
+  gem.add_dependency 'multi_json'
   gem.add_dependency 'httparty-icebox'
 end
 
